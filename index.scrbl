@@ -12,6 +12,10 @@ CV: @hyperlink["./download/CV.pdf"]{CV.pdf}
 
 I am researching on miniKanren and Gradual Typing.
 
+I find λ-expressions @hyperlink[
+ "https://lukc1024.github.io/visualize-lambda"]{
+   looks lovely}}.
+
 @section{Research in Bioinformatics}
 
 Publications:

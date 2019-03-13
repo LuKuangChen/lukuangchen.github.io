@@ -1,0 +1,43 @@
+#!/bin/bash
+
+
+
+function build {
+	build_index
+	build_blog
+	build_tweet
+	build_aboutme
+}
+
+
+
+function build_index {
+    ../utility/remove-newlines.sh ./index.xhtml
+}
+
+
+
+
+function build_blog {
+    for F in ./blog/*.xhtml
+    do
+        ../utility/remove-newlines.sh "$F"
+    done
+}
+
+
+
+
+function build_tweet {
+    ../utility/remove-newlines.sh ./tweet/index.xhtml
+}
+
+
+function build_aboutme {
+    ../utility/remove-newlines.sh ./about-me/index.xhtml
+}
+
+
+
+
+build
