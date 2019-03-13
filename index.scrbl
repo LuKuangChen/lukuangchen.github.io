@@ -8,7 +8,7 @@ focusing on Programming Language. I am from Taiwan
 
 CV: @hyperlink["./download/CV.pdf"]{CV.pdf}
 
-@section{Research in Computer Science}
+@section{Computer Science}
 
 I am researching on miniKanren and Gradual Typing.
 
@@ -16,7 +16,11 @@ I find λ-expressions @hyperlink[
  "https://lukc1024.github.io/visualize-lambda"]{
    looks lovely}.
 
-@section{Research in Bioinformatics}
+I am an Associate Instructors of @hyperlink[
+ "https://cgi.soic.indiana.edu/~c311/doku.php?id=home"]{
+ C311}.
+
+@section{Bioinformatics}
 
 Publications:
 
