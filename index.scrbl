@@ -2,21 +2,18 @@
 
 @title{Lu, Kuang-Chen's Homepage}
 
-I am currently a MS CS student at Indiana University,
-focusing on Programming Language. I am from Taiwan
-(Republic of China).
+I am a MS CS student at Indiana University, focusing on
+Programming Language. I am from Taiwan (Republic of China).
 
 CV: @hyperlink["./download/CV.pdf"]{CV.pdf}
 
 @section{Computer Science}
 
-I am researching on miniKanren and Gradual Typing.
-
 I find λ-expressions @hyperlink[
  "https://lukc1024.github.io/visualize-lambda"]{
    looks lovely}.
 
-I am an Associate Instructors of @hyperlink[
+I am an Associate Instructors (or TA) of @hyperlink[
  "https://cgi.soic.indiana.edu/~c311/doku.php?id=home"]{
  C311}.
 
