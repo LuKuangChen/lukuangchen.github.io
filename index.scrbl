@@ -12,6 +12,11 @@ I am working on miniKanren and Gradual Typing.
  "https://lukc1024.github.io/visualize-lambda"]{
    looks lovely}.
 
-I am an AI/TA) of @hyperlink[
+I am an AI/TA of @hyperlink[
  "https://cgi.soic.indiana.edu/~c311/doku.php?id=home"]{
  C311}.
+
+@section{Publications}
+
+@itemlist[
+ @item{Towards a miniKanren with fair search strategies}]
