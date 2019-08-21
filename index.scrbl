@@ -29,10 +29,17 @@ I am an AI/TA of @C311{}.
 @section{Publications}
 
 @itemlist[
- @item{Towards a miniKanren with fair search strategies}]
+ @item{@hyperlink[(string-append
+                   "https://github.com/LuKC1024/"
+                   "Towards-a-miniKanren-with-fair-search-strategies/"
+                   "raw/master/Paper/paper.pdf")]{
+   LU, KUANG-CHEN, WEIXI MA, and DANIEL P. FRIEDMAN.
+   "Towards a miniKanren with fair search strategies." (2019).}}]
 
 @section{Activities}
 
 @itemlist[
+ @item{Student of PLMW @"@" ICFP 2019}
+ @item{Volunteer of ICFP 2019}
  @item{@download["OPLSS-2019.pdf"]{OPLSS 2019}}
  @item{Racket School 2019}]
