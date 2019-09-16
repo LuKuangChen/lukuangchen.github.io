@@ -11,6 +11,9 @@
 @(define (C311)
    (hyperlink "https://cgi.soic.indiana.edu/~c311/doku.php?id=home"
               "C311"))
+@(define (Gradual-Typing)
+   (hyperlink "http://prl.ccs.neu.edu/gtp/"
+              "Gradual Typing"))
 
 @title{Lu, Kuang-Chen's Homepage}
 
@@ -18,7 +21,7 @@
 
 I am a MS CS student at Indiana University.
 
-I am working on @miniKanren{} and Gradual Typing.
+I am working on @miniKanren{} and @Gradual-Typing{}.
 
 λ-expression @hyperlink[
  "https://lukc1024.github.io/visualize-lambda"]{
