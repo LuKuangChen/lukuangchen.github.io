@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Lu, Kuang-Chen's Homepage</title>
+    <style type="text/css" title="main">h1 + ul {
+	padding: 0px;
+	display: inline-block;
+	margin: 0px;
+}
+h1 + ul > li {
+	display: inline-block;
+	padding: 0px 1em;
+}
+h1 + ul > li:not(:last-child) {
+	border-right: 1px solid black;
+}
+
+h1 {
+	margin-bottom: .7ex;
+}
+h2 {
+	border-bottom: 1px solid grey;
+}
+
+html {
+	width: 100%;
+  height: 100%;
+	/* background-color: darkcyan; */
+  background-image: url("./Downloads/globalcore.png");
+}
+
+body {
+	max-width: 80ex;
+  font-family: sans-serif;
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding: 3ex 7ex;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+	font-weight: normal;
+}
+
+a {
+  transition: color .4s;
+  color: #265C83;
+  text-decoration: none;
+}
+a:link,
+a:visited { color: #265C83; }
+a:hover   { color: #7FDBFF; }
+a:active  {
+  transition: color .3s;
+  color: #007BE6;
+}</style>
+  </head>
+  <body>
+    <h1>Lu, Kuang-Chen</h1>
+    <ul>
+      <li><a href="https://lukc1024.github.io/Downloads/CV.pdf">CV</a></li>
+      <li><a href="mailto:kl13@iu.edu">kl13@iu.edu</a></li>
+    </ul>
+    <p>I am a MS CS student at <a href="https://www.indiana.edu/">Indiana
+        University</a>, working on <a href="https://prl.ccs.neu.edu/gtp/about.html">Gradual
+        Typing</a>. My master's thesis advisor is <a href="https://wphomes.soic.indiana.edu/jsiek/">Jeremy
+        Siek</a>.</p>
+    <p><a href="https://docs.racket-lang.org/dan-scheme/">Scheme</a> and <a href="https://agda.readthedocs.io/en/v2.6.0.1/">Agda</a>
+      are my favorite programming languages.</p>
+    <p> I found λ-expression <a href="https://lukc1024.github.io/visualize-lambda">looks
+        lovely</a>.</p>
+    <h2>Publications</h2>
+    <ul>
+      <li>Kuang-Chen Lu, Weixi Ma, and Daniel P. Friedman. 2019. Towards a
+        miniKanren with fair search strategies. In Proceedings of the Workshop
+        on miniKanren 2019, Berlin, Germany. <a href="http://minikanren.org/workshop/2019/minikanren19-final1.pdf">http://minikanren.org/workshop/2019/minikanren19-final1.pdf</a></li>
+      <li>Hu, Zhiqiang, Chen Sun, Kuang-chen Lu, Xixia Chu, Yue Zhao, Jinyuan
+        Lu, Jianxin Shi, and Chaochun Wei. "EUPAN enables pan-genome studies of
+        a large number of eukaryotic genomes." Bioinformatics 33, no. 15 (2017):
+        2408-2409.</li>
+      <li>Sun, Chen, Zhiqiang Hu, Tianqing Zheng, Kuangchen Lu, Yue Zhao,
+        Wensheng Wang, Jianxin Shi et al. "RPAN: rice pan-genome browser
+        for&nbsp; ̃ 3000 rice genomes." Nucleic acids research 45, no. 2 (2016):
+        597-605.</li>
+    </ul>
+    <h2>Teaching Experiences</h2>
+    <ul>
+      <li>Spring 2019, Fall 2019: Teaching Assistant of <a href="https://cgi.soic.indiana.edu/%7Ec311/doku.php?id=home">C311/B521
+          Programming Language</a></li>
+    </ul>
+    <h2>Service</h2>
+    <ul>
+      <li>Student Volunteer at <a href="https://icfp19.sigplan.org/">ICFP 2019</a></li>
+      <li>2018–2019 Committee of <a href="http://www.indiana.edu/%7Epffc/">Preparing
+          Future Faculty Conference</a> at Indiana University</li>
+    </ul>
+  </body>
+</html>
