@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Lu, Kuang-Chen's Homepage</title>
+    <style type="text/css" title="main">h1 + ul {
+	padding: 0px;
+	display: inline-block;
+	margin: 0px;
+}
+h1 + ul > li {
+	display: inline-block;
+	padding: 0px 1em;
+}
+h1 + ul > li:not(:last-child) {
+	border-right: 1px solid black;
+}
+
+h1 {
+	margin-bottom: .7ex;
+}
+h2 {
+	border-bottom: 1px solid grey;
+}
+
+html {
+	width: 100%;
+  min-height: 100%;
+	/* background-color: darkcyan; */
+  background-image: url("./Downloads/globalcore.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+body {
+	max-width: 75ex;
+  font-family: sans-serif;
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding: 3ex 7ex;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+	font-weight: normal;
+}
+
+a {
+  transition: color .4s;
+  color: #265C83;
+  text-decoration: none;
+}
+a:link,
+a:visited { color: #265C83; }
+a:hover   { color: #7FDBFF; }
+a:active  {
+  transition: color .3s;
+  color: #007BE6;
+}</style>
+  </head>
+  <body>
+    <h1>Knowledge on Programming Languages</h1>
+    <ul>
+      <li><span style="color: #265c83;"><a href="./index.html">Back to home</a></span></li>
+    </ul>
+    <p></p>
+    (My opinions are <u>marked with underscore</u>.)<br>
+    <p><u><em>Type systems</em> rule out programs that does not "make sense".</u></p>
+    <p><u>Programs that are not ruled out by a type system are <em>well-typed</em>.
+        To put it another way, every <em>well-typed</em> program "makes sense".<br>
+      </u></p>
+    <p><u>Every good <em>type system</em> is in a <em>Curry-Howard
+          Correspondence</em> with a <em>logic</em>.</u></p>
+    <p><u><em>Practical Fundations of Programming Languages</em> gives nice
+        definitions of many things.</u></p>
+    <p><u><em>Types and Programming Languages</em> is another good book for
+        looking up definitions.</u></p>
+    <p>The Lambda Calculus is <em>untyped</em>.</p>
+    <p>Many<em> untyped</em> programming languages are actually <em>unityped</em>
+      -- there is only one type and the language is <em>type-safe</em>.</p>
+    <p><em>Type-safety</em> stands for <em>progression</em> and <em>preservation</em>.</p>
+    <p><em>Progression in type-safety</em> means every <em>well-typed</em>
+      program is either a <em>value</em> or reduces to another program.</p>
+    <p><em>Preservation in type-safety</em> means whenever a <em>well-typed</em>
+      program reduces to a program, the target program is also <em>well-typed</em>.
+    </p>
+    <p><u><em>Church encoding</em> means using lambda abstractions to represent
+        everything.</u></p>
+    <p><u><em>Church encoding</em> is the only "right" way to specify the
+        semantics of <em>product</em> and <em>sum</em>.</u></p>
+    <p>Product is also known as Pair.</p>
+    <p>Multiarity product is known as <em>tuple</em>. Labeled product is also
+      known as <em>record</em>.</p>
+    <p>Multiarity sum has no other name. Labeled sum is also known as <em>variant</em>.</p>
+    <p><br>
+    </p>
+  </body>
+</html>
