@@ -1,0 +1,94 @@
+h1 + ul {
+  padding: 0px;
+  display: inline-block;
+  margin: 0px;
+}
+h1 + ul > li {
+  display: inline-block;
+  padding: 0px 1em;
+}
+h1 + ul > li:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+h1 {
+  margin-bottom: 0.7ex;
+}
+h2 {
+  border-bottom: 1px solid grey;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+  /* background-color: darkcyan; */
+  background-image: url("./Downloads/globalcore.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  max-width: 75ex;
+  font-family: sans-serif;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 3ex 7ex;
+}
+
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+a {
+  transition: color 0.4s;
+  color: #265c83;
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: #265c83;
+}
+a:hover {
+  color: #7fdbff;
+}
+a:active {
+  transition: color 0.3s;
+  color: #007be6;
+}
+
+@media print {
+  body section:first-of-type {
+    display: none;
+  }
+
+  h1,
+  body ul:first-of-type {
+    display: inline-block;
+  }
+
+  body ul:first-of-type li:first-of-type {
+    display: none;
+  }
+
+  body {
+    width: unset;
+    font-size: 11pt;
+    font-family: sans-serif;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 3ex 3ex;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
