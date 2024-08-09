@@ -1,6 +1,7 @@
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 menu {
@@ -97,7 +98,7 @@ p:last-child {
 }
 
 figure.me {
-  max-width: calc(50% - 1em);
+  max-width: min(calc(50% - 1em), 25ex);
   margin: 0;
   padding: 1ex;
 }
@@ -119,7 +120,7 @@ details:hover {
   border-color: red;
 }
 
-/* 
+/*
 details>summary {
   list-style-type: none;
 }
@@ -150,22 +151,25 @@ details[open]>summary {
 #publications ~ article > h3 {
   margin-bottom: 0;
   font-family: serif;
+  font-style: italic;
 }
 
 ul.authors {
   display: flex;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap;
+  gap: 0 1ex;
 }
 ul.authors>li {
   display: inline-block;
   text-wrap: nowrap
 }
 ul.authors>li:not(:last-child):after {
-  content: "";
+  content: ",";
 }
-ul.authors>li:not(:first-child):before {
-  content: ", ";
+ul.authors>li.me {
+  text-decoration: underline;
 }
 
 
@@ -173,7 +177,7 @@ ul.links {
   display: flex;
   padding: 0;
   margin: 0;
-  gap: 0.5ex; 
+  gap: 0.5ex;
   font-family: monospace;
 }
 ul.links>li {
@@ -184,6 +188,18 @@ ul.links>li a::before {
 }
 ul.links>li a::after {
   content: "]";
+}
+
+span.venue {
+  font-size: smaller;
+  font-style: normal;
+  text-wrap: nowrap;
+}
+span.venue::before {
+  content: "(";
+}
+span.venue::after {
+  content: ")";
 }
 
 @media print {
