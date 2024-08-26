@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+    content="An intelligent tutoring system of the Standard Model of Programming Languages (SMoL)" />
+  <link rel="apple-touch-icon" href="./logo192.png" />
+  <link rel="manifest" href="./manifest.json" />
+  <title>SMoL Tutor</title>
+</head>
+
+<body>
+  <dialog id="syntax-chooser" style="width: 30ex; height: 40ex;">
+    <h4>Choose your prefer syntax</h4>
+    <form id="syntax-chooser" method="dialog">
+      <select name="syntax" id="syntax-list">
+      </select>
+      <div style="display: flex; flex-direction: column; margin: 0.5ex 0;">
+        <span class="syntaxName"></span>
+        <pre style="margin: 0;"><output></output></pre>
+      </div>
+      <button formmethod="dialog">OK</button>
+    </form>
+  </dialog>
+  <div id="root" style="min-height: 100vh"></div>
+  <script src="./bundle.js"></script>
+</body>
+
+</html>
