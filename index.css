@@ -259,3 +259,16 @@ span.venue::after {
     padding: 0;
   }
 }
+
+a.award::before {
+  content: "[🏅";
+}
+
+a.award::after {
+  content: "] ";
+}
+
+a.award {
+  font-style: normal;
+  font-size: smaller;
+}
