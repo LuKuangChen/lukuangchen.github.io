@@ -1,58 +1,4 @@
-:target {
-  -webkit-animation: target-fade 3s 1;
-  -moz-animation: target-fade 3s 1;
-}
-
-@-webkit-keyframes target-fade {
-  0% {
-    background-color: rgb(255, 255, 0);
-  }
-
-  100% {
-    background-color: rgba(0, 0, 0, 0);
-  }
-}
-
-@-moz-keyframes target-fade {
-  0% {
-    background-color: rgb(255, 255, 0);
-  }
-
-  100% {
-    background-color: rgba(0, 0, 0, 0);
-  }
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-menu {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 0 2ex;
-  gap: 1rem;
-}
-
-menu > li {
-  display: contents;
-}
-
-menu > li > a {
-  display: block;
-  padding: 1.3ex 1ex;
-  border-radius: 0.8ex;
-  border: 2px solid darkgray;
-  text-align: center;
-}
-
-h2 {
-  border-bottom: 1px solid grey;
-}
-
+/* Background with climate change visualization */
 html {
   width: 100%;
   min-height: 100%;
@@ -62,59 +8,53 @@ html {
   background-repeat: no-repeat;
 }
 
+/* Give text readable background */
+body {
+  background-color: rgba(255, 255, 255, 0.80);
+}
+
+/* Keep the text centraled and properly spaced */
 body {
   max-width: 80ex;
-  font-family: sans-serif;
-
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(255, 255, 255, 0.95);
-  border-radius: 1ex;
+  margin: 0 auto;
   padding: 3ex 7ex;
 }
 
-h1,
-h2,
-h3 {
-  font-family: sans-serif;
-  font-weight: normal;
+/* Header underlines */
+h2 {
+  border-bottom: 1px solid grey;
 }
 
+/* Style hyperlinks */
 a {
   transition: color 0.4s;
   color: #265c83;
   text-decoration: none;
 }
-
 a:link,
 a:visited {
   color: #265c83;
 }
-
 a:hover {
   color: #7fdbff;
 }
-
 a:active {
   transition: color 0.3s;
   color: #007be6;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
 
+/* Headshot */
 figure.me {
-  max-width: min(calc(50% - 1em), 25ex);
+  max-width: 25ex;
   margin: 0;
-  padding: 1ex;
+  margin-left: 1em;
+  float: right;
 }
-
 figure.me img {
   max-width: 100%;
   height: auto;
 }
-
 figure.me figcaption {
   background-color: #222;
   color: #fff;
@@ -123,44 +63,12 @@ figure.me figcaption {
   text-align: center;
 }
 
-details:hover {
-  border-color: red;
-}
-
-/*
-details>summary {
-  list-style-type: none;
-}
-
-details>summary::-webkit-details-marker {
-  display: none;
-}
-
-details>summary::after {
-  content: '(Click to learn more)';
-}
-
-details[open]>summary::after {
-  content: '';
-} */
-
-details {
-  border: 1px solid gray;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-details[open]>summary {
-  margin-bottom: 0.5rem;
-}
-
-#publications ~ article > h3 {
-  margin-bottom: 0;
-  font-family: serif;
+/* Italic paper titles */
+#publications ~ article > h1 {
   font-style: italic;
 }
 
+/* Author lists */
 ul.authors {
   display: flex;
   padding: 0;
@@ -179,7 +87,7 @@ ul.authors>li.me {
   text-decoration: underline;
 }
 
-
+/* Link lists */
 ul.links {
   display: flex;
   padding: 0;
@@ -197,61 +105,27 @@ ul.links>li a::after {
   content: "]";
 }
 
+/* Venue */
 span.venue {
-  font-size: smaller;
   font-style: normal;
+  font-weight: lighter;
   text-wrap: nowrap;
 }
 span.venue::before {
-  content: "(";
-}
-span.venue::after {
-  content: ")";
-}
-
-@media print {
-  body section:first-of-type {
-    display: none;
-  }
-
-  h1,
-  body ul:first-of-type {
-    display: inline-block;
-  }
-
-  body ul:first-of-type li:first-of-type {
-    display: none;
-  }
-
-  body {
-    width: unset;
-    font-size: 11pt;
-    font-family: sans-serif;
-
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    padding: 3ex 3ex;
-  }
-
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
+  content: "\A";
+  white-space: pre;
 }
 
 a.award::before {
-  content: "[🏅";
+  content: " | ";
 }
-
 a.award::after {
-  content: "] ";
+  content: "";
 }
-
 a.award {
   font-style: normal;
-  font-size: smaller;
+  font-weight: lighter;
+  white-space: nowrap;
 }
 
 article.publication > h1, article.talk > h1 {
