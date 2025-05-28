@@ -6,6 +6,7 @@ html {
   background-image: url("./Downloads/globalcore.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  font-size: 16pt;
 }
 
 /* Give text readable background */
@@ -15,13 +16,14 @@ body {
 
 /* Keep the text centraled and properly spaced */
 body {
-  max-width: 80ex;
+  max-width: 40rem;
   margin: 0 auto;
-  padding: 3ex 7ex;
+  padding: 1rem 3rem;
 }
 
 /* Header underlines */
 h2 {
+  font-size: larger;
   border-bottom: 1px solid grey;
 }
 
@@ -46,9 +48,9 @@ a:active {
 
 /* Headshot */
 figure.me {
-  max-width: 25ex;
+  max-width: 10rem;
   margin: 0;
-  margin-left: 1em;
+  margin-left: 2rem;
   float: right;
 }
 figure.me img {
