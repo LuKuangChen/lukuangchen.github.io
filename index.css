@@ -48,13 +48,14 @@ a:active {
   color: #007be6;
 }
 
-
 /* Headshot */
 figure.me {
   max-width: 10rem;
   margin: 0;
   margin-left: 2rem;
   float: right;
+  position: relative;
+  z-index: 99;
 }
 
 figure.me img {
@@ -62,12 +63,25 @@ figure.me img {
   height: auto;
 }
 
-figure.me figcaption {
-  background-color: #222;
-  color: #fff;
+figure.me figcaption ul {
+  padding: 0;
+  margin: 0;
+}
+
+figure.me figcaption li {
+  list-style: none;
+}
+
+figure.me figcaption a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.3ex;
+  border-radius: 1ex;
   font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
+  padding: 5px;
+  border: 1px solid grey;
+  background-color: white;
 }
 
 /* Italic paper titles */
@@ -150,7 +164,8 @@ article.talk>h1 {
   margin-bottom: 0;
 }
 
-ul.authors {
+ul.authors,
+ul.links {
   font-size: smaller;
 }
 
